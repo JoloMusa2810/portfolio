@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contact.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  
+   
+</head>
+<body>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.contact {
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: #fff;
+  font-family: Italic, cursive;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.info-box {
+  border: 2px dashed #00f0ff;
+  border-radius: 15px;
+  margin: 8px;
+  padding: 12px;
+  background: #fff;
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  word-break: break-word;
+}
+
+.contact-form {
+  border: 2px dashed #00f0ff;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  resize: none;
+}
+
+.contact-form button {
+  background: #00f0ff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #00f0ff;
+}
+  </style>
+  <section class="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-info">
+      <div class="info-box">
+        <span><i class="fa-solid fa-square-envelope"></i>jolomallorca4@gmail.com</span>
+ </div>
+      <div class="info-box">
+        <span>
+        <i class="fa-brands fa-github"></i>JoloMusa2810</span>
+      </div>
+      <div class="info-box">
+        <span>
+      <i class="fa-brands fa-facebook"></i>Jolo Mallorca</span></div>
+    </div>
+    <div class="info-box">
+      <span><i class="fa-brands fa-x-twitter"></i>Jolo Mallorca/@Mallorca1028</span>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message ✉️</button>
+    </form>
+  </section>
+</body>
+</html>
